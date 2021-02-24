@@ -1,8 +1,5 @@
 source "https://rubygems.org"
 
-gem.metadata = {
-  "github_repo" => "ssh://github.com/fac/nulldb" 
-}
 gem 'activerecord', '>= 5.2.0', '< 7.1'
 
 group :development, :test do
