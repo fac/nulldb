@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'activerecord', '>= 5.2.0', '< 7.1'
+gem 'activerecord', '>= 5.2.0', '< 7.1', github: "rails/rails", branch: "main"
 
 group :development, :test do
   gem 'spec'
